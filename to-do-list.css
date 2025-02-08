@@ -1,0 +1,55 @@
+body{
+    font-family: Arial;
+    background-color: aqua;
+}
+.add{
+    background-color: green;
+    color: white;
+    border:1px solid black;
+    border-radius:6px;
+   
+}
+.input-value , .input-date , .mobileno , .input-email , .add{
+    padding:10px 15px;
+}
+.main-grids{
+    display:grid;
+    grid-template-columns: 200px  300px 200px 200px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.grid-styles{
+    display:grid;
+    grid-template-columns: 200px  300px 200px 200px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+.main-grids{
+    margin-top:50px;
+    align-items: stretch;
+}
+.del{
+    background-color: darkred;
+    color:white;
+    padding:10px 15px;
+    border:1px solid black;
+    border-radius:6px;
+}
+.text{
+    font-size: 15px;
+    border-radius:6px;
+    border:none;
+}
+.header{
+    font-size: 40px;
+    background-color:rgb(0, 204, 255);
+    font-weight: bold;
+    color:rgb(5, 1, 1);  
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+}
